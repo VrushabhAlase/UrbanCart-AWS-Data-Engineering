@@ -1,0 +1,7 @@
+boto3
+pandas
+pyarrow
+faker
+pyspark
+awscli
+pytest
