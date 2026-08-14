@@ -1,5 +1,33 @@
-﻿.venv/
+# Python
+.venv/
+.venv-urbancart/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# IDE
 .vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Test / temporary
 data for testig/
+*.log
+*.tmp
+
+# Generated UrbanCart data
+data/raw/
+data/bronze/
+data/silver/
+data/dq/
+data/gold/
+
+# Spark / Hadoop temporary files
+.sparkStaging/
+_SUCCESS
+*.crc
